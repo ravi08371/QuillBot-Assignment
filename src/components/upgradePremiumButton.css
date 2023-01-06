@@ -1,0 +1,39 @@
+#upgradePremiumDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+#upgradePremiumDiv p {
+  font-size: 31px;
+  margin-top: 40px;
+}
+#upgradePremiumDiv Button {
+  color: white;
+  text-transform: capitalize;
+  background-color: #499557;
+  width: 50vh;
+  padding: 7px;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+#upgradePremiumDiv Button:hover {
+  background-color: #3f854c;
+}
+
+@media (max-width: 477px) {
+  #upgradePremiumDiv p {
+    font-size: 30px;
+  }
+  #upgradePremiumDiv {
+    text-align: center;
+  }
+  #upgradePremiumDiv Button {
+    width: 28vh;
+    font-size: 15px;
+  }
+}

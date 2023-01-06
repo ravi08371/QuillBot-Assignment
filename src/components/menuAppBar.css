@@ -1,0 +1,58 @@
+.modal {
+  width: 32vh;
+  position: absolute;
+  z-index: 10000;
+
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+}
+#flagMain {
+  border-radius: 50%;
+  border: none;
+}
+
+#flags {
+  margin: 0;
+  padding: 0;
+}
+#flagMain:hover {
+  width: 29px;
+}
+.btns {
+  margin-left: 10px;
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  padding: 6px;
+  color: grey;
+}
+.btns:hover {
+  color: #499557;
+}
+
+.QuillBotPrem {
+  margin: 0 35vw 0 0;
+  padding: 0;
+}
+.QuillBotPrem h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (max-width: 477px) {
+  .QuillBotPrem {
+    display: none;
+  }
+}
+
+@media (max-width: 799px) {
+  .QuillBotPrem {
+    display: none;
+  }
+}
+
+.mainBox {
+  position: sticky;
+  top: 0;
+}

@@ -1,0 +1,26 @@
+#countryList {
+  position: relative;
+  left: 180vh;
+  /* top: -1.2vh; */
+  width: 32vh;
+  border: 1px solid rgb(219, 218, 218);
+  border-radius: 6px;
+  margin: 0;
+  padding: 0;
+}
+#CountrylistPtag {
+  all: unset;
+  padding-bottom: 2px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.flagImg {
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.darks {
+  background-color: #202020;
+  color: white;
+  /* border: 1px solid #383939; */
+}

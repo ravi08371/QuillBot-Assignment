@@ -1,0 +1,143 @@
+#freeBtn {
+  color: white;
+  text-transform: capitalize;
+  background-color: #499557;
+  width: 100%;
+  padding: 7px;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#freeBtn:hover {
+  background-color: #3f854c;
+}
+#premiumBtn {
+  color: white;
+  text-transform: capitalize;
+  background-color: #dc9e00;
+  width: 100%;
+  padding: 7px;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#premiumBtn:hover {
+  background-color: #e8b022;
+}
+
+#list {
+  /* border: 1px solid #f1f1f1; */
+  margin: 0;
+  width: 28vw;
+  padding: 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+  border-radius: 10px 10px 10px 10px;
+  /* border-radius: 6px; */
+}
+#list .li {
+  margin: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#list .lt {
+  margin: -10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.free {
+  background-color: #499557;
+  border-radius: 10px 10px 0 0;
+  margin: 0;
+  padding: 0;
+}
+.free h1 {
+  margin: 4px;
+  color: white;
+}
+.premium {
+  background-color: #dc9e00;
+  border-radius: 10px 10px 0 0;
+  margin: 0;
+  padding: 0;
+}
+.premium h1 {
+  margin: 4px;
+  color: white;
+}
+.bottom {
+  background-color: #eeeeee;
+  border-radius: 0 0 10px 10px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+.bottom p {
+  font-weight: 500;
+  margin: auto;
+  padding: 8px;
+
+  text-align: center;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+}
+#main div {
+  margin: 20px;
+}
+.yellowTick {
+  color: #dc9e00;
+}
+.greenTick {
+  color: #499557;
+}
+.cross {
+  color: red;
+}
+.infoBtn:hover {
+  color: #dc9e00;
+}
+.infoBtn {
+  color: rgb(163, 161, 161);
+}
+@media (max-width: 477px) {
+  #main {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100vw;
+  }
+  #list {
+    width: 100vw;
+  }
+  #list .li {
+    font-size: 10px;
+    font-weight: 100;
+  }
+  #freeBtn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #premiumBtn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+.darkMode {
+  background-color: #202020;
+  color: rgb(244, 241, 241);
+}
+.darkMode li {
+  background-color: #202020;
+  color: white;
+}
+.light {
+  background-color: white;
+  color: black;
+}
